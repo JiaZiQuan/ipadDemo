@@ -14,6 +14,8 @@
 		2B8216D01A13278C009A74FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B8216CF1A13278C009A74FC /* Images.xcassets */; };
 		2B8216D31A13278C009A74FC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B8216D11A13278C009A74FC /* LaunchScreen.xib */; };
 		2B8216DF1A13278D009A74FC /* ipadDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8216DE1A13278D009A74FC /* ipadDemoTests.m */; };
+		2B8216EA1A132BBE009A74FC /* SecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8216E91A132BBE009A74FC /* SecViewController.m */; };
+		2B8216EC1A135700009A74FC /* beauty.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2B8216EB1A135700009A74FC /* beauty.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		2B8216D81A13278D009A74FC /* ipadDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ipadDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B8216DD1A13278D009A74FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2B8216DE1A13278D009A74FC /* ipadDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ipadDemoTests.m; sourceTree = "<group>"; };
+		2B8216E81A132BBE009A74FC /* SecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecViewController.h; sourceTree = "<group>"; };
+		2B8216E91A132BBE009A74FC /* SecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecViewController.m; sourceTree = "<group>"; };
+		2B8216EB1A135700009A74FC /* beauty.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beauty.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,9 @@
 				2B8216C71A13278C009A74FC /* AppDelegate.m */,
 				2B8216C91A13278C009A74FC /* ViewController.h */,
 				2B8216CA1A13278C009A74FC /* ViewController.m */,
+				2B8216E81A132BBE009A74FC /* SecViewController.h */,
+				2B8216E91A132BBE009A74FC /* SecViewController.m */,
+				2B8216EB1A135700009A74FC /* beauty.jpg */,
 				2B8216CC1A13278C009A74FC /* Main.storyboard */,
 				2B8216CF1A13278C009A74FC /* Images.xcassets */,
 				2B8216D11A13278C009A74FC /* LaunchScreen.xib */,
@@ -168,6 +176,7 @@
 				TargetAttributes = {
 					2B8216BE1A13278C009A74FC = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 8VJLJ6ZFC3;
 					};
 					2B8216D71A13278D009A74FC = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -202,6 +211,7 @@
 				2B8216CE1A13278C009A74FC /* Main.storyboard in Resources */,
 				2B8216D31A13278C009A74FC /* LaunchScreen.xib in Resources */,
 				2B8216D01A13278C009A74FC /* Images.xcassets in Resources */,
+				2B8216EC1A135700009A74FC /* beauty.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B8216EA1A132BBE009A74FC /* SecViewController.m in Sources */,
 				2B8216CB1A13278C009A74FC /* ViewController.m in Sources */,
 				2B8216C81A13278C009A74FC /* AppDelegate.m in Sources */,
 				2B8216C51A13278C009A74FC /* main.m in Sources */,
@@ -343,7 +354,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ipadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,7 +366,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ipadDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -412,6 +427,7 @@
 				2B8216E41A13278D009A74FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2B8216E51A13278D009A74FC /* Build configuration list for PBXNativeTarget "ipadDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +436,7 @@
 				2B8216E71A13278D009A74FC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

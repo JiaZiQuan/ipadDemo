@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)pushNext:(id)sender;
 
 @end
 
