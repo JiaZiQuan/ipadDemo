@@ -54,6 +54,6 @@
     transition.subtype = kCATransitionFromBottom;
     
     [self.navigationController.view.layer addAnimation:transition forKey:nil];
-
+    NSLog(@"你可真心菜死了啊");
 }
 @end
